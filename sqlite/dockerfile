@@ -5,4 +5,4 @@ RUN apt-get update && \
 
 RUN mkdir -p /root/db
 WORKDIR /root/db
-ENTRYPOINT [ "sqlite3 test.db" ]
+ENTRYPOINT [ "sqlite3","test.db" ]
